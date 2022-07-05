@@ -11,7 +11,7 @@ Examples: spinWords( "Hey fellow warriors" ) => returns "Hey wollef sroirraw" sp
             else{
                 StringBuilder sb=new StringBuilder();
                 for(int j=array[i].length()-1;j>=0;j--){
-                    sb.append(array[i].charAt(j))
+                    sb.append(array[i].charAt(j));
                 }
                 array[i]=sb.toString();
             }
