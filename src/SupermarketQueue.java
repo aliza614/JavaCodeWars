@@ -12,6 +12,7 @@ public class SupermarketQueue {
 
             }
             Arrays.sort(customers);
+            double d=
             return Math.max(answer/n,customers[customers.length-1]);
 
         }
